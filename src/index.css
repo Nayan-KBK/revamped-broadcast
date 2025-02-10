@@ -1,0 +1,12 @@
+@import "tailwindcss";
+/* index.css */
+
+@tailwind utilities;
+
+
+body {
+    font-family: "PT Serif", sans-serif;
+    /* font-family: 'Space Grotesk', sans-serif; */
+    
+    overflow-x: hidden;
+  }

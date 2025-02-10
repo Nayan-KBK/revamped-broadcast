@@ -1,0 +1,20 @@
+.cta-overlay {
+    background: #000;
+    opacity: 0.7;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo-red{
+    color: #ec242a;
+}
+.logo-blue-bg{
+    background-color: #223f92;
+}
+
+.cta{
+    background-image: url('../../assets/cta.jpg');
+}

@@ -1,0 +1,107 @@
+.bg-custom-gradient {
+  background-image: linear-gradient(139deg, #486caa, #6293d5);
+  background-size: cover;
+  /* Ensures the gradient fills the container */
+  background-position: center;
+  /* Centers the background */
+  padding: 20px;
+  /* Add some padding if necessary */
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+  /* Hide the scrollbar */
+}
+
+
+
+
+
+.service {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 5px;
+  margin: 40px auto ;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 80vh;
+  margin-top: 20px;
+  background: linear-gradient(to bottom, #4b5563, #e5e7eb);
+  border-radius: 1rem;
+  padding: 16px;
+}
+
+
+
+.service-2{
+  margin-top: 20vh;
+  margin-bottom: 0;
+} 
+/* Apply negative margin only for larger screens */
+@media (min-width: 640px) {
+  .service-card1:nth-child(n) {
+    margin-top: calc(40px * var(--index));
+  }
+}
+@media (min-width: 640px) {
+  .service-card2:nth-child(n) {
+    margin-top: calc(-40px * var(--index));
+  }
+}
+
+.service-image {
+  margin-bottom: 16px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.service-heading {
+  font-size: 1.875rem;
+  color: #f3f4f6;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.service-description {
+  text-align: left;
+  font-size: 1.125rem;
+  overflow-y: auto;
+}
+
+@media (max-width: 640px) {
+  .service {
+    flex-direction: column;
+    width: 98%;
+  }
+
+  .service-card {
+    width: 100% ;
+    height: 100%;
+  }
+
+  .service-2{
+    margin-top: -5vh;
+  }
+}
+
+
+
+
+
+.border-small{
+  border: 0.1px solid rgba(149, 145, 145, 0.421);
+}
+
+.text-logo-blue{
+  color:#4950A1
+}
