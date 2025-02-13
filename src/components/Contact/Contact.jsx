@@ -49,7 +49,7 @@ const Contact = () => {
                         <h4 className="text-xl font-semibold">Email</h4>
                         <p className="flex items-center gap-2  mt-2">
                             <GrMail />
-                            info@kbkbroadcasting.in
+                            <a className=' hover:text-primary flex' href='mailto:info@kbkbroadcasting.in'>info@kbkbroadcasting.in</a>
                         </p>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ const Contact = () => {
                         <h4 className="text-xl font-semibold">Mobile</h4>
                         <p className="flex items-center gap-2  mt-2">
                             <IoCall />
-                            +91 90104 58007
+                            <a className=' hover:text-primary flex' href='tel:+917032666108'>+91 70326 66108</a>
                         </p>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ const Contact = () => {
                         </p>
                     </div>
                 </div>
-         
+
 
 
             </div>
@@ -84,7 +84,7 @@ const Contact = () => {
 
             <div className="px-0 sm:px-[15vw]">
 
-            <ContactForm/>
+                <ContactForm />
             </div>
 
 

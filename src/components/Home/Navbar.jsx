@@ -100,8 +100,8 @@ function Navbar() {
                                     {[
                                         { name: "K-News Telugu", link: "https://www.youtube.com/@KNewsTelugu1" },
                                         { name: "Kapotham Telugu News", link: "https://kapotham.com/" },
-                                        { name: "Mr. Hyderbadi", link: "https://www.youtube.com/@mr.hyderabadi4718" },
-                                        { name: "Bhavy's Media", link: "https://www.youtube.com/@bhavyasmedia" },
+                                        { name: "Mr. Hyderabadi", link: "https://www.youtube.com/@mr.hyderabadi4718" },
+                                        { name: "Bhavyas Media", link: "https://www.youtube.com/@bhavyasmedia" },
                                     ].map((item, index) => (
                                         <li key={index}>
                                             <NavLink
@@ -241,8 +241,8 @@ function Navbar() {
                                         {[
                                             { name: "K-News Telugu", link: "https://www.youtube.com/@KNewsTelugu1" },
                                             { name: "Kapotham Telugu News", link: "https://kapotham.com/" },
-                                            { name: "Mr. Hyderbadi", link: "https://www.youtube.com/@mr.hyderabadi4718" },
-                                            { name: "Bhavy's Media", link: "https://www.youtube.com/@bhavyasmedia" },
+                                            { name: "Mr. Hyderabadi", link: "https://www.youtube.com/@mr.hyderabadi4718" },
+                                            { name: "Bhavyas Media", link: "https://www.youtube.com/@bhavyasmedia" },
                                         ].map((item, index) => (
                                             <li key={index}>
                                                 <NavLink

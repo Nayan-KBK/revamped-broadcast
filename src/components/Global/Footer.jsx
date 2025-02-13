@@ -25,7 +25,7 @@ export default function Footer() {
               <h6 className='text-lg font-semibold text-white ml-2'>Stay Connected</h6>
 
               <div className="flex text-white ">
-                <h6><a className=' hover:text-primary flex' href='tel:+919010458007'><IoCall className='h-6 w-5 mx-2' />+91 90104 58007</a></h6>
+                <h6><a className=' hover:text-primary flex' href='tel:+917032666108'><IoCall className='h-6 w-5 mx-2' />+91 70326 66108</a></h6>
               </div>
               <div className="flex  text-white ">
                 <h6><a className=' hover:text-primary flex' href='mailto:info@kbkbroadcasting.in'><GrMail className='h-6 w-5 mx-2' />info@kbkbroadcasting.in</a></h6>
@@ -97,8 +97,8 @@ export default function Footer() {
                 {[
                   { name: "K-News Telugu", link: "https://www.youtube.com/@KNewsTelugu1" },
                   { name: "Kapotham Telugu News", link: "https://kapotham.com/" },
-                  { name: "Mr. Hyderbadi", link: "https://www.youtube.com/@mr.hyderabadi4718" },
-                  { name: "Bhavy's Media", link: "https://www.youtube.com/@bhavyasmedia" },
+                  { name: "Mr. Hyderabadi", link: "https://www.youtube.com/@mr.hyderabadi4718" },
+                  { name: "Bhavyas Media", link: "https://www.youtube.com/@bhavyasmedia" },
 
                 ].map((item, index) => (
                   <li key={index}  >

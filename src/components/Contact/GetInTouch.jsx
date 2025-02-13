@@ -69,6 +69,7 @@ export default function ContactForm() {
 
             // Send form data to the backend API
             const response = await fetch("https://kbk-broadcasting-backend.vercel.app/submit-contact-form", {
+            // const response = await fetch("http://localhost:5000/submit-contact-form", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -233,7 +234,7 @@ export default function ContactForm() {
                                         placeholder="Subject*"
 
                                         className="w-full p-3 border-b border-gray-400 rounded-none focus:outline-none"
-                                        onKeyUp={(e) => { e.target.value = e.target.value.replace(/[^a-zA-Z\s]/g, ''); }}
+                                        onKeyUp={(e) => { e.target.value = e.target.value.replace(/[^a-zA-Z\s,.]/g, ''); }}
                                         required
                                     />
                                 </div>
@@ -246,7 +247,7 @@ export default function ContactForm() {
                                         rows={3}
                                         name="message"
                                         placeholder="What's on your mind?*"
-                                        onKeyUp={(e) => { e.target.value = e.target.value.replace(/[^a-zA-Z\s]/g, ''); }}
+                                        onKeyUp={(e) => { e.target.value = e.target.value.replace(/[^a-zA-Z\s.,]/g, ''); }}
                                         required
                                     />
                                 </div>
